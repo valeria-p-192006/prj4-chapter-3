@@ -1,0 +1,32 @@
+html {
+	background-color: #EBE3CC
+}
+h1 {
+	font: bold;
+	font-family: "times new roman";
+	font-size: 33px;
+	color:#422307;
+}
+h3 { 
+	text-align: end;
+}
+p {
+	line-height: 2;
+}
+.class {
+	font-family:"bilbo";
+	font-size: 18px;
+}
+#description{
+	color:#301500;
+}
+.container{
+ 
+
+	line-height: 1;
+	font-size: 18px;
+	font-family:"Times New Roman";
+	color: #301500;
+	text-align-last: center;
+	border: thick;
+}
