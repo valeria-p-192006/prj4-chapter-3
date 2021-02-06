@@ -1,5 +1,5 @@
 html {
-	background-color: #EBE3CC
+	background-color: #EFE2DB
 }
 h1 {
 	font: bold;
@@ -29,4 +29,7 @@ p {
 	color: #301500;
 	text-align-last: center;
 	border: thick;
+	background-color: #CAA18B;
+    padding: 10px;
+    border-radius: 20px;
 }
