@@ -2,6 +2,8 @@
 <html>
   <head>
      <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/bootstrap.min.css">
        <title> My first web page! </title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 	  <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -30,12 +32,36 @@
   <li>Corgi Means Dwarf Dog</li> 
 </ol>
 		<br>
-	<img src="images/corgi.jpg" alt="Corgi" width="450px" height="450px" />
+	<div class="card" style="width: 18rem;">
+  <img src="images/corgi.jpg" class="card-img-top" alt="Corgi">
+  <div class="card-body">
+    <h5 class="card-title">Corgi</h5>
+    <p class="card-text">Cutie</p>
+    <a href="https://www.buas.nl/" class="btn btn-primary">Check out the buas website</a>
+  </div>
+</div>	
+  </div>
+	<div class="container-fluid carousel">
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="images/corgi1.jpg" class="d-block w-100" alt="One more corgi image">
+    </div>
+    <div class="carousel-item">
+      <img src="images/corgi2.jpg" class="d-block w-100" alt="And one more corgi image">
+    </div>
+    <div class="carousel-item">
+      <img src="images/corgi3.jpg" class="d-block w-100" alt="Sorry, but here is one more photo of corgi">
+    </div>
 		</div>
+	</div>
+	</div>
  <footer>
 	<p>
     <a href="https://www.buas.nl/"> Check out the Buas website </a>
   </p>
 	 </footer>
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
