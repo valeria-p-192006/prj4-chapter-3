@@ -38,6 +38,14 @@ p {
 	padding-left: 35px; 
     border-radius: 20px;
 }
+.container-fluid{
+	text-align: center;
+}
+.jumbotron{
+	background-color: antiquewhite;
+}
 .carousel{
-	width: 600px;
+	width: 800px;
+	height: 800px;
+	align-content: center;
 }
